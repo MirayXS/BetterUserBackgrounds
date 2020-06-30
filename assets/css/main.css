@@ -1,0 +1,225 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    background-color: #393c40;
+    color: #ffffff;
+}
+
+.bh {
+    color: #e22d2d;
+}
+
+.hidden {
+    display: none;
+}
+
+body.light {
+    background-color: #fefefe; 
+    color: #0a0a0a;
+}
+
+h4, h5 {
+    font-family: inherit;
+    font-weight: 600;
+}
+
+.bug-syntax {
+    white-space: pre-wrap;
+}
+
+.syntaxbox {
+    min-height: 3.750rem;
+    border-radius: 0.1875rem;
+}
+
+body.light .syntaxbox {
+    background-color: #eaeaea;
+}
+
+input:required:invalid {
+    border-color: #ff0000;
+}
+
+input[type="text"], select {
+    height: 2.125rem;
+    font-size: 0.875rem;
+    border-radius: 0.1875rem;
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+    input[type="text"], select {
+        height: 2.4375rem;
+        font-size: 1rem;
+    }
+}
+
+body:not(.light) [type=text]:focus {
+    background-color: rgba(0,0,0,.1);
+}
+
+body:not(.light) input[type="text"],
+body:not(.light) select,
+body:not(.light) .input-group-label,
+body:not(.light) div.syntaxbox {
+    background-color: rgba(0,0,0,.1);
+    color: #ffffff;
+}
+
+select {
+    line-height: 1.15;
+}
+
+body:not(.light) select option {
+    background-color: #313339;
+}
+
+.help-text {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(255,255,255,.8);
+}
+
+label {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+body.light label {
+    color: #0a0a0a;
+}
+
+body.light .help-text {
+    color: #0a0a0a;
+}
+
+.button {
+    background-color: #7289da;
+    border-radius: 0.1875rem;
+    font-family: inherit;
+    font-weight: 400;
+}
+
+.cb-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 0.75rem;
+}
+
+.button:focus, .button:hover {
+    background-color: #5970c1;
+}
+
+.button-group a {
+    width: 5.6rem;
+}
+
+.button-group .button {
+    border-radius: 0;
+}
+
+.button-group>:first-child {
+    border-radius: 0.1875rem 0 0 0.1875rem;
+}
+
+.button-group>:last-child {
+    border-radius: 0 0.1875rem 0.1875rem 0;
+}
+
+@media screen and (max-width: 39.9375em) {
+    .trello > .button {
+        border-radius: 0.1875rem;
+        width: 49%;
+    }
+}
+
+.trello {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.top-bar {
+    padding: 0;
+    background-color: #7289da;
+}
+
+.top-bar ul {
+    color: #ffffff;
+    background-color: #7289da;
+}
+
+.top-bar ul a {
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #ffffff;
+    opacity: .8;
+}
+
+ul .act-pg > a {
+    opacity: 1;
+}
+
+.act-pg {
+    box-shadow: 0 -0.125rem 0 0 #ffffff inset;
+}
+
+.show-for-small-only > li > a {
+    font-size: 1.375rem;
+}
+
+.top-bar ul > :not(.menu-text) :hover {
+    opacity: 1;
+}
+
+.show-for-small-only > li > a > i {
+    margin-right: 0;
+}
+
+.callout, .reveal {
+    font-size: 0.875rem;
+}
+
+.reveal {
+    background-color: #333639;
+}
+
+.mbox {
+    padding: 1.25rem;
+    border-radius: 0.1875rem;
+    border: 0.0625rem solid rgba(0,0,0,.3);
+    color: rgba(255,255,255,.7);
+    background-color: rgba(0,0,0,.1);
+    font-weight: 400;
+    font-size: 0.8125rem;
+}
+
+body.light .callout {
+    color: #0a0a0a;
+}
+
+body.light .mbox, body.light .reveal {
+    background-color: #f3f3f3;
+}
+
+.warn {
+    background-color: rgba(240,71,71,.3);
+    border-radius: 0.1875rem;
+    border: 0.125rem solid rgba(240,71,71,.75);
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+.input-group > :first-child {
+    border-radius: 0.1875rem 0 0 0.1875rem;
+}
+
+.input-group > :last-child {
+    border-radius: 0 0.1875rem 0.1875rem 0;
+}
+
+.input-group-label {
+    font-size: 0.75rem;
+}
