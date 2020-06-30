@@ -11,4 +11,8 @@
           <li>You Can Use Any Image File and GIFs For The User Background Source URL!</li>
           <li>    YOU WILL NEED <a href="https://betterdiscord.net/"> BetterDiscord</a> TO USE THIS THEME!</p>
         </ul>
-      </div>
+      </div><img src="https://camo.githubusercontent.com/4b66c95c855f6736ce6d463f3d0fdd8ba8310a3c/68747470733a2f2f692e696d6775722e636f6d2f79436c71426f522e706e67">
+      
+
+
+      
